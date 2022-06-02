@@ -19,10 +19,10 @@ background: grey
     </div>
 
     <div class="col-md">
-		<p>Road Name</p>
-		<p>Suburb</p>
-		<p>City</p>
-		<p>0000</p>
+		<p>48 Drakenstein Road</p>
+		<p>Durbanville Hills</p>
+		<p>Cape Town</p>
+		<p>7550</p>
     </div>
     
   </div>
