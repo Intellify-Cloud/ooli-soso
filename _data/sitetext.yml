@@ -21,8 +21,8 @@ services:
         desc: "We help you check your credit record, income and expenses to give you an accurate assessment of what you can afford. You will then know how likely you are to qualify for a bond."
         icon: fas fa-tasks       
         link:
-          url: tel:+270813039611
-          text: "Call: 081 303 9611"
+          url: tel:+270000000000
+          text: "Call: 000 000 0000"
       - title: "Still Looking for a Home?"
         desc: "I am still searching for property using property portals, newspapers and visiting show houses but would like to ask a few questions."
         icon: fas fa-search
@@ -157,7 +157,19 @@ team:
         role: "Head of Homeloans"
         image: assets/img/team/400x400m1.jpg
         social:
-          - url: tel:081 303 9611
+          - url: tel:000 000 0000
+            icon: fas fa-phone
+          # - url: mailto:name.surnamexxx@evogroup.co.za?subject=Website Enquiry
+          #   icon: fas fa-envelope
+          # - url: https://www.facebook.com/xxx
+          #   icon: fab fa-facebook-f
+          # - url: https://www.linkedin.com/in/xxx
+          #   icon: fab fa-linkedin-in
+      - name: "Antonella Werth"
+        role: "Head of Homeloans"
+        image: assets/img/team/400x400.jpg
+        social:
+          - url: tel:000 000 0000
             icon: fas fa-phone
           # - url: mailto:name.surnamexxx@evogroup.co.za?subject=Website Enquiry
           #   icon: fas fa-envelope
@@ -192,12 +204,10 @@ footer:
     social:
       # - url: https://twitter.com
       #   icon: "fab fa-twitter"  
-      - url: https://www.facebook.com/evoTheBondStudioxxx
-        icon: "fab fa-facebook-f"
+      # - url: https://www.facebook.com/
+        # icon: "fab fa-facebook-f"
       # - url: https://linkedin.com
       #   icon: "fab fa-linkedin-in"
-      # - url: https://github.com/raviriley/agency-jekyll-theme
-      #   icon: "fab fa-github"
       # - url: https://instagram.com
       #   icon: "fab fa-instagram"
 
