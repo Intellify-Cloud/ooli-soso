@@ -1,0 +1,18 @@
+nav:
+  - title: "Why Us"
+    section: textblock
+
+  - title: "Services"
+    section: services
+    
+  - title: "Team"
+    section: team
+
+  - title: "Calculators"
+    section: calculators
+
+  - title: "Contact"
+    url: /contact
+
+  # - title: "Blog"
+  #   section: articles
