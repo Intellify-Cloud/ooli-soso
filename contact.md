@@ -1,10 +1,10 @@
 ---
 layout: page
-title: evo The Bond Studio
+title: oobalink Northern Suburbs
 background: grey
 ---
 <div class="col-lg-12 text-center">
-	<h1 class="section-heading text-uppercase">Contact evo The Bond Studio</h1>
+	<h1 class="section-heading text-uppercase">Contact oobalink Northern Suburbs</h1>
 </div>
 
 <br>

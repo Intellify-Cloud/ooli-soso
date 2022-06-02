@@ -15,7 +15,7 @@ services:
         desc: "We will submit your Home Loan Applications to up to seven banks, negotiating the best interest rates and deal in the market at any given time."
         icon: fas fa-home
         link: 
-          url: mailto:email.xxx@evogroup.co.za?subject=Mail from evo The Bond Studio website
+          url: mailto:email.xxx@evogroup.co.za?subject=Mail from oobalink Northern Suburbs website
           text: "Email Us"
       - title: "Pre-qualification"
         desc: "We help you check your credit record, income and expenses to give you an accurate assessment of what you can afford. You will then know how likely you are to qualify for a bond."
@@ -27,7 +27,7 @@ services:
         desc: "I am still searching for property using property portals, newspapers and visiting show houses but would like to ask a few questions."
         icon: fas fa-search
         link: 
-          url: mailto:name.surnamexxx@evogroup.co.za?subject=Mail from evo The Bond Studio website
+          url: mailto:name.surnamexxx@evogroup.co.za?subject=Mail from oobalink Northern Suburbs website
           text: "Email Us"
 
 articles:
@@ -79,7 +79,7 @@ more-calculators:
           text: "Calculate"
 
 textblock:
-    title: "Why evo The Bond Studio"
+    title: "Why oobalink Northern Suburbs"
     text: "Home loans are our business, and we focus is to get your bond approved."
     footer: "Our service is completely FREE, with no obligation."
     section: textblock
@@ -103,7 +103,7 @@ portfolio:
     
 about:
     title: "About Us"
-    text2: "At evo The Bond Studio our vision is to enable positive futures for our clients. Our mission is to be our client’s most trusted partner. Our passionate is in helping our clients achieve their goal of buying property. We are committed to providing the best service possible. <br>
+    text2: "At oobalink Northern Suburbs our vision is to enable positive futures for our clients. Our mission is to be our client’s most trusted partner. Our passionate is in helping our clients achieve their goal of buying property. We are committed to providing the best service possible. <br>
     
     <br> 
     
@@ -172,13 +172,13 @@ testimonials:
     section: testimonials
     people:
       - name: "Some O."
-        testimony: "In my recent dealings with The Bond Studio, I can highly recommend them as they are  highly effective and trustworthy. Always professional and very quick to react and pursues the service till the end. Keeping us informed and updated constantly. She has an excellent knowledge of what she does and also the market out there and what is to offer to her clients. I will do business with her again anytime in future. Thanks evo The Bond Studio, keep up this exceptional work."
+        testimony: "In my recent dealings with The Bond Studio, I can highly recommend them as they are  highly effective and trustworthy. Always professional and very quick to react and pursues the service till the end. Keeping us informed and updated constantly. She has an excellent knowledge of what she does and also the market out there and what is to offer to her clients. I will do business with her again anytime in future. Thanks oobalink Northern Suburbs, keep up this exceptional work."
 
       - name: "John D."
         testimony: "Baie dankie vir jou uitstekende diens! Dankie vir die gereelde terugvoering en dat jy alles so mooi verduidelik het, ons verstaan nie altyd al die terme nie! Jy het die hele proses baie vergemaklik en alles binne 3 weke afgehandel. Weereens baie dankie!"
 
       - name: "Joe S."
-        testimony: "Thank you, evo The Bond Studio, for your dedication and professional help and advice given. You have most definitely increased my buying power and helped me to have an impressive credit report. I look forward to contacting you in the near future, again. I will definitely pass your details on to friends and family. ☆☆☆☆☆"
+        testimony: "Thank you oobalink Northern Suburbs, for your dedication and professional help and advice given. You have most definitely increased my buying power and helped me to have an impressive credit report. I look forward to contacting you in the near future, again. I will definitely pass your details on to friends and family. ☆☆☆☆☆"
 
         
 

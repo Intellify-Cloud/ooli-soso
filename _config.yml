@@ -1,8 +1,8 @@
 baseurl: ""
 
-title      : evo The Bond Studio - Bond Origination & Home Loan Experts in xxxSuburb, xxxCity, xxxProvince
+title      : oobalink Northern Suburbs - Bond Origination & Home Loan Experts in xxxSuburb, xxxCity, xxxProvince
 email      : grant@thebondstudio.co.za
-description: Contact evo The Bond Studio from xxxSuburb, xxxCity to help you with home loan. We are seasoned property professionals that specialize in mortgages and property finance with 28 years of experience. Our experience ranges from sales to finance and she specializes in bonds, home loans and origination. We are committed to excellent client service, building long-term relationships..
+description: Contact oobalink Northern Suburbs from xxxSuburb, xxxCity to help you with home loan. We are seasoned property professionals that specialize in mortgages and property finance with 28 years of experience. Our experience ranges from sales to finance and she specializes in bonds, home loans and origination. We are committed to excellent client service, building long-term relationships..
 author     : Eben Roux / Pieter Oosthuizen
 
 analytics:
@@ -20,14 +20,14 @@ webserver_headers:
     - GET, OPTIONS, HEAD
 
 logo:
-  path: /assets/logo.png
+  path: /assets/oobalink logo.png
 
 exclude: [node_modules,webpack-config.js,package.json,package-lock.json]
 
 group: evo Group
 
-company: evo The Bond Studio
+company: oobalink Northern Suburbs
 
-url: www.evothebondstudio.co.za
+url: www.oobalink-northernsuburbs.co.za
 
 address: 00 Unknown Road, Suburb, Town, Province , Postal Code
