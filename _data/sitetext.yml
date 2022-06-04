@@ -21,13 +21,13 @@ services:
         desc: "We help you check your credit record, income and expenses to give you an accurate assessment of what you can afford. You will then know how likely you are to qualify for a bond."
         icon: fas fa-tasks       
         link:
-          url: tel:+270000000000
-          text: "Call: 000 000 0000"
+          url: tel:+27836472978 
+          text: "Call: 083 647 2978"
       - title: "Still Looking for a Home?"
         desc: "I am still searching for property using property portals, newspapers and visiting show houses but would like to ask a few questions."
         icon: fas fa-search
         link: 
-          url: mailto:name.surnamexxx@evogroup.co.za?subject=Mail from oobalink Northern Suburbs website
+          url: mailto:franco@werth.co.za?subject=Mail from oobalink Northern Suburbs website
           text: "Email Us"
 
 articles:
@@ -157,21 +157,21 @@ team:
         role: "Head of Homeloans"
         image: assets/img/team/400x400m1.jpg
         social:
-          - url: tel:000 000 0000
+          - url: tel:083 647 2978 
             icon: fas fa-phone
-          # - url: mailto:name.surnamexxx@evogroup.co.za?subject=Website Enquiry
+          - url: mailto:franco@werth.co.za?subject=Website Enquiry
           #   icon: fas fa-envelope
           # - url: https://www.facebook.com/xxx
           #   icon: fab fa-facebook-f
           # - url: https://www.linkedin.com/in/xxx
           #   icon: fab fa-linkedin-in
       - name: "Antonella Werth"
-        role: "Head of Homeloans"
+        role: "Homeloan Specialist"
         image: assets/img/team/400x400.jpg
         social:
-          - url: tel:000 000 0000
+          - url: tel:083 647 2978
             icon: fas fa-phone
-          # - url: mailto:name.surnamexxx@evogroup.co.za?subject=Website Enquiry
+          - url: mailto:antonella@werth.co.za?subject=Website Enquiry
           #   icon: fas fa-envelope
           # - url: https://www.facebook.com/xxx
           #   icon: fab fa-facebook-f
