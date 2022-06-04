@@ -160,7 +160,7 @@ team:
           - url: tel:083 647 2978 
             icon: fas fa-phone
           - url: mailto:franco@werth.co.za?subject=Website Enquiry
-          #   icon: fas fa-envelope
+            icon: fas fa-envelope
           # - url: https://www.facebook.com/xxx
           #   icon: fab fa-facebook-f
           # - url: https://www.linkedin.com/in/xxx
@@ -172,7 +172,7 @@ team:
           - url: tel:083 647 2978
             icon: fas fa-phone
           - url: mailto:antonella@werth.co.za?subject=Website Enquiry
-          #   icon: fas fa-envelope
+            icon: fas fa-envelope
           # - url: https://www.facebook.com/xxx
           #   icon: fab fa-facebook-f
           # - url: https://www.linkedin.com/in/xxx
