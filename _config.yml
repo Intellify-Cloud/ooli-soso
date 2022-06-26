@@ -6,7 +6,7 @@ description: Contact oobalink Northern Suburbs from Durbanville Hills to help yo
 author     : Eben Roux / Pieter Oosthuizen
 
 analytics:
-  google: G-XXX
+  google: G-ENSV5HFFL3
 
 collections:
   portfolio:
@@ -24,7 +24,7 @@ logo:
 
 exclude: [node_modules,webpack-config.js,package.json,package-lock.json]
 
-group: evo Group
+group: oobalink
 
 company: oobalink Northern Suburbs
 
