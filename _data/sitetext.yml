@@ -15,7 +15,7 @@ services:
         desc: "We will submit your Home Loan Applications to up to seven banks, negotiating the best interest rates and deal in the market at any given time."
         icon: fas fa-home
         link: 
-          url: mailto:email.xxx@evogroup.co.za?subject=Mail from oobalink Northern Suburbs website
+          url: mailto:antonellawerth@ooba-link.co.za?subject=Mail from oobalink Northern Suburbs website
           text: "Email Us"
       - title: "Pre-qualification"
         desc: "We help you check your credit record, income and expenses to give you an accurate assessment of what you can afford. You will then know how likely you are to qualify for a bond."
@@ -27,7 +27,7 @@ services:
         desc: "I am still searching for property using property portals, newspapers and visiting show houses but would like to ask a few questions."
         icon: fas fa-search
         link: 
-          url: mailto:franco@werth.co.za?subject=Mail from oobalink Northern Suburbs website
+          url: mailto:antonellawerth@ooba-link.co.za?subject=Mail from oobalink Northern Suburbs website
           text: "Email Us"
 
 articles:
@@ -103,20 +103,15 @@ portfolio:
     
 about:
     title: "About Us"
-    text2: "At oobalink Northern Suburbs our vision is to enable positive futures for our clients. Our mission is to be our client’s most trusted partner. Our passionate is in helping our clients achieve their goal of buying property. We are committed to providing the best service possible. <br>
-    
-    <br> 
-    
-    We are seasoned property professionals, and have spent the last 28 years in the property industry, gaining knowledge and experience in the different aspects of property sales and finance. I have a keen interest in communications, marketing, sales and customer service, obtained a National Diploma in Public  Relations, NQF4 and spent some time in the corporate world of Public Relations and Publicity.<br> 
-    
-    <br> 
-
-    I have more than 15 years’ specialised experience in bond finance and origination, having worked at ABSA Home Loans, Sanlam Home Loans, Mortgage Max and BetterBond previously. I am committed to excellent client service, building long-term relationships and always focus on the client's best interests rather than my own personal gain. 
-    
-    On a personal note, I was born in Cape Town, matriculated at Alexander Road High School in PE, studied at the Nelson Mandela University (PE) and spent 5 years in Langebaan as an Estate Agent. I enjoy running, stand-up paddle boarding, scuba diving, open-water swimming, sailing and horse-riding. On weekends (when I’m not doing show houses with agents) I enjoy spending time with my brothers, Eldon and Warren, and father, Ernie. <br>    
+    text2: "The company is headed by Antonella Werth who is a partner in the oobalink group of originators. She has many years of experience in home finance and since establishing the business in 2004, it has grown exponentially and has become a well known and highly respected player in the bond origination market. oobalink has a national footprint and is one of SA’s largest independently owned origination businesses.
     <br>
-
-    I am proud to be associated with Evo, who is a part of the ooba Group. Evo was launched to the market as a licensee model designed to cater for the origination business market and individual home loan consultants seeking to align themselves with an established brand within the mortgage origination industry. evo is managed by a highly efficient team with years of experience in banking and origination business, with over 100 licensed independent offices."
+    Through the years we have built great relationships with estate agencies, estate agents, developers, clients and the banks.
+    <br>
+    We pride ourselves on outstanding service and finding the best deal for the client and making the whole mortgage process as easy and hassle free as possible.
+    <br>
+    We speed up the process of applications via electronic submission to the various banks to ensure you get the competitive edge and thus the best deal possible.
+    <br>
+    Our Mission says it all: “We don’t want to be the biggest, only the best!”"
     
 clients:
     title: Bank Partners
@@ -153,46 +148,68 @@ team:
     section: team
     contact: 
     people:
-      - name: "Franco Werth"
-        role: "Head of Homeloans"
-        image: assets/img/team/400x400m1.jpg
-        social:
-          - url: tel:083 647 2978 
-            icon: fas fa-phone
-          - url: mailto:franco@werth.co.za?subject=Website Enquiry
-            icon: fas fa-envelope
-          # - url: https://www.facebook.com/xxx
-          #   icon: fab fa-facebook-f
-          # - url: https://www.linkedin.com/in/xxx
-          #   icon: fab fa-linkedin-in
       - name: "Antonella Werth"
-        role: "Homeloan Specialist"
-        image: assets/img/team/400x400.jpg
+        role: "Executive Director"
+        image: assets/img/team/oobalink-northernsuburbs-antonella-werth.jpg
         social:
           - url: tel:083 647 2978
             icon: fas fa-phone
-          - url: mailto:antonella@werth.co.za?subject=Website Enquiry
+          - url: mailto:antonellawerth@ooba-link.co.za?subject=Website Enquiry
             icon: fas fa-envelope
           # - url: https://www.facebook.com/xxx
           #   icon: fab fa-facebook-f
           # - url: https://www.linkedin.com/in/xxx
           #   icon: fab fa-linkedin-in
 
+      - name: "Natasha Hartley"
+        role: "Bond Admininistrator"
+        image: assets/img/team/oobalink-northernsuburbs-natasha-hartley.jpg
+        social:
+          - url: tel:076 312 8323 
+            icon: fas fa-phone
+          - url: mailto:natasha@ooba-link.co.za?subject=Website Enquiry
+            icon: fas fa-envelope
+          # - url: https://www.facebook.com/xxx
+          #   icon: fab fa-facebook-f
+          # - url: https://www.linkedin.com/in/xxx
+          #   icon: fab fa-linkedin-in
+
+      - name: "Franco Werth"
+        role: "Operations Director"
+        image: assets/img/team/oobalink-northernsuburbs-franco-werth.jpg
+        social:
+          - url: tel:083 647 2978 
+            icon: fas fa-phone
+          - url: mailto:franco@ooba-link.co.za?subject=Website Enquiry
+            icon: fas fa-envelope
+          # - url: https://www.facebook.com/xxx
+          #   icon: fab fa-facebook-f
+          # - url: https://www.linkedin.com/in/xxx
+          #   icon: fab fa-linkedin-in
+
+
 testimonials:
     title: "TESTIMONIALS"
-    text: "What Others Say About Me"
+    text: "What Others Say About Us"
     section: testimonials
     people:
-      - name: "Some O."
-        testimony: "In my recent dealings with The Bond Studio, I can highly recommend them as they are  highly effective and trustworthy. Always professional and very quick to react and pursues the service till the end. Keeping us informed and updated constantly. She has an excellent knowledge of what she does and also the market out there and what is to offer to her clients. I will do business with her again anytime in future. Thanks oobalink Northern Suburbs, keep up this exceptional work."
+      - name: "Grant B."
+        testimony: "I am so impressed! I will certainly be singing your praises to my friends and family should they require your assistance!"
 
-      - name: "John D."
-        testimony: "Baie dankie vir jou uitstekende diens! Dankie vir die gereelde terugvoering en dat jy alles so mooi verduidelik het, ons verstaan nie altyd al die terme nie! Jy het die hele proses baie vergemaklik en alles binne 3 weke afgehandel. Weereens baie dankie!"
+      - name: "José F."
+        testimony: "Thank you for your assistance with our bond application.  Your advice, efficiency and friendliness made a normally painstaking process a pleasurable one.  I will be sure to recommend your service."
 
-      - name: "Joe S."
-        testimony: "Thank you oobalink Northern Suburbs, for your dedication and professional help and advice given. You have most definitely increased my buying power and helped me to have an impressive credit report. I look forward to contacting you in the near future, again. I will definitely pass your details on to friends and family. ☆☆☆☆☆"
+      - name: "Johan V."
+        testimony: "Wel gedaan ook aan jou en jou span! Ek kan nie in woorde omsit hoe baie julle doeltreffendheid en manier van werk my beïndruk nie!"
 
-        
+      - name: "Grant N."
+        testimony: "It has been a great pleasure dealing with you during the last while. Your professional and courteous support is greatly appreciated."        
+
+      - name: "Colleen and Andre K."
+        testimony: "Just a note to say a huge thank you for your assistance with our bond application, your professional service made the whole process effortless for us."
+
+      - name: "Monique M."
+        testimony: "We will definitely make use of Ooba Link again. What wonderful service!"
 
 contact:
     title: "Contact Us"
