@@ -124,7 +124,7 @@ clients:
         logo: assets/img/clients/absa-bw.png
       - title: "FNB"
         url: https://www.fnb.co.za/
-        logo: assets/img/clients/fnb-bw.png
+        logo: assets/img/clients/fnb-bw-n.png
       - title: "Investec"
         url: https://www.investec.co.za/
         logo: assets/img/clients/investec-bw.png
@@ -133,7 +133,7 @@ clients:
         logo: assets/img/clients/ithala-bank.png
       - title: "Rand Merchant Bank"
         url: https://www.rmb.co.za
-        logo: assets/img/clients/rmb-img.png
+        logo: assets/img/clients/rmb-img-n.png
       - title: "Nedbank"
         url: https://www.nedbank.co.za
         logo: assets/img/clients/nedbank-bw.png
