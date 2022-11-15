@@ -80,20 +80,20 @@ more-calculators:
 
 textblock:
     title: "Why oobalink Northern Suburbs"
-    text: "Home loans are our business, and we focus on geting your bond approved."
+    text: "Home loans are our business and we focus on getting your bond approved."
     footer: "Our service is completely FREE, with no obligation."
     section: textblock
     list:
       - title: "I help you complete one application, which I submit to all the banks."
-        image: "fa-university"
+        image: "fas fa-check-square"
       - title: "I apply to the banks, including your own bank, to get quotes."
-        image: "fa-file-invoice-dollar"
+        image: "fas fa-check-square"
       - title: "You can compare the quotes from each bank."
-        image: "fa-balance-scale"
+        image: "fas fa-check-square"
       - title: "I negotiate the best interest rates and deal on your behalf."
-        image: "fa-comments-dollar"
+        image: "fas fa-check-square"
       - title: "I can help you in securing a zero deposit bond if required."
-        image: "fa-user-shield"
+        image: "fas fa-check-square"
 
 portfolio:
     title: "Other Services"

@@ -17,6 +17,18 @@
   }
 }
 
+.whatsapp {
+  position: fixed;
+  right: 8px;
+  top: 85%;
+}
+.whatsapp h5 {
+  color: rgb(255, 255, 255);
+  background: #20b20f;
+  padding: 8px;
+  border-radius: 10px;
+}
+
 ul.social-buttons {
   margin-bottom: 0;
   li {
