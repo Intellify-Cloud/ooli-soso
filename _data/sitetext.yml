@@ -84,15 +84,11 @@ textblock:
     footer: "Our service is completely FREE, with no obligation."
     section: textblock
     list:
-      - title: "I help you complete one application, which I submit to all the banks."
+      - title: "We prequalify you before you start house hunting."
         image: "fas fa-check-square"
-      - title: "I apply to the banks, including your own bank, to get quotes."
+      - title: "We assist you in completing one set of application forms which we submit to the banks, including your own, to obtain the necessary quotes."
         image: "fas fa-check-square"
-      - title: "You can compare the quotes from each bank."
-        image: "fas fa-check-square"
-      - title: "I negotiate the best interest rates and deal on your behalf."
-        image: "fas fa-check-square"
-      - title: "I can help you in securing a zero deposit bond if required."
+      - title: "We will negotiate with the banks to ensure you’re getting the best possible deal and interest rate."
         image: "fas fa-check-square"
 
 portfolio:
