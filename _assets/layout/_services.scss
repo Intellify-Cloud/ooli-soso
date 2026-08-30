@@ -1,0 +1,61 @@
+// Styling for the services section
+.services__heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+
+.services__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+  gap: 30px;
+}
+
+.services__grid .card {
+  height: 100%;
+}
+
+.services .card {
+  border: none
+}
+
+.services .card .card-footer {
+  border: none;
+  background: none;
+}
+  
+.services .btn {
+  border-radius: 30px;
+}
+
+.calculators .services__grid {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr));
+  justify-items: center;
+}
+
+.calculators__card {
+  display: flex;
+  width: 100%;
+  max-width: 400px;
+  aspect-ratio: 5 / 4;
+  min-height: 400px;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  background-color: $white;
+  border: 1px solid $gray-300;
+  border-radius: $surface-radius;
+  box-shadow: $surface-shadow;
+}
+
+.calculators__card .card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1.5rem 1rem;
+}
+
+.calculators__card .card-footer {
+  padding: 0 1.5rem 2rem;
+}

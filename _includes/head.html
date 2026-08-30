@@ -1,0 +1,58 @@
+<head>
+{% assign canonical_path = page.canonical_url | default: page.url | replace: 'index.html', '' %}
+{% if site.analytics.google %}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.analytics.google }}');
+  </script>
+{% endif %}
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>{% if page.title and page.title != "" %}{{ page.title }}{% if page.title != site.title %} | {{ site.title }}{% endif %}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  {% if page.noindex %}<meta name="robots" content="noindex">{% endif %}
+
+  <meta name="author" content="{{ site.author | default: site.business_name }}">
+  <link rel="canonical" href="{{ canonical_path | absolute_url }}">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:url" content="{{ canonical_path | absolute_url }}">
+  <meta property="og:title" content="{{ page.og_title | default: page.title | default: site.title | escape }}">
+  <meta property="og:description" content="{{ page.og_description | default: page.description | default: site.description | escape }}">
+  <meta property="og:image" content="{{ page.og_image | default: '/social.jpg' | absolute_url }}">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.og_title | default: page.title | default: site.title | escape }}">
+  <meta name="twitter:description" content="{{ page.og_description | default: page.description | default: site.description | escape }}">
+  <meta name="twitter:image" content="{{ page.og_image | default: '/social.jpg' | absolute_url }}">
+
+  <link rel="icon" href="{{ site.baseurl }}/favicon.png" type="image/png">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet" type="text/css">
+
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script defer src="{{ '/assets/js/site.js' | relative_url }}"></script>
+  <script lang="js">var baseurl = "{{ "" | relative_url }}";</script>
+
+  {% include structured-data.html %}
+
+  <!-- Page container change top padding when nav shrinks -->
+  {% if page.layout == "page" and page.full_width != true %}
+  <style>
+    #pagecontainer {padding-top: 150px;}
+    @media only screen and (max-width: 991px) {
+      #pagecontainer {padding-top: 100px;}
+    }
+  </style>
+  {% endif %}
+
+</head>

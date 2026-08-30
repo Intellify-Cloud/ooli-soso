@@ -1,0 +1,48 @@
+<!-- FAQ -->
+<section class="page-section" id="{{ site.data.sitetext.faq.section }}">
+  <style>
+    #faq .faq-item { border-bottom: 1px solid #e3e3e3; padding: 1rem 0; }
+    #faq .faq-question { font-size: 1.1rem; font-weight: 700; margin: 0 0 .5rem; color: #212529; }
+    #faq .faq-answer p { margin: 0; color: #495057; line-height: 1.7; }
+    #faq .faq-disclaimer { margin-top: 1.5rem; font-size: .92rem; color: #6c757d; font-style: italic; }
+  </style>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.faq.title }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext.faq.text }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <div class="accordion" id="faqAccordion">
+          {%- for item in site.data.sitetext.faq.items -%}
+          <div class="faq-item">
+            <h3 class="faq-question">{{ item.question }}</h3>
+            <div class="faq-answer">
+              <p>{{ item.answer }}</p>
+            </div>
+          </div>
+          {%- endfor -%}
+        </div>
+        <p class="faq-disclaimer">{{ site.data.sitetext.faq.disclaimer }} <a href="{{ '/contact/' | relative_url }}">{{ site.data.sitetext.faq.disclaimer_link_text }}</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {%- for item in site.data.sitetext.faq.items -%}
+    {
+      "@type": "Question",
+      "name": {{ item.question | jsonify }},
+      "acceptedAnswer": { "@type": "Answer", "text": {{ item.answer | strip_html | jsonify }} }
+    }{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  ]
+}
+</script>
+<!-- End FAQ -->

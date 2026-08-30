@@ -1,0 +1,50 @@
+baseurl: ""
+
+title      : oobalink Northern Suburbs
+email      : antonellawerth@ooba-link.co.za
+locale     : en_ZA
+business_name: oobalink Northern Suburbs
+telephone  : "082 771 3117"
+service_area: "Northern Suburbs, Cape Town, Western Cape"
+social:
+  facebook: ""
+  linkedin: ""
+  instagram: ""
+description: oobalink Northern Suburbs is a Cape Town bond originator and home-loan advisory practice. We help buyers and homeowners compare home-loan quotes from South Africa's major banks and guide you from pre-qualification to registration.
+author     : oobalink Northern Suburbs
+
+analytics:
+  google: G-ENSV5HFFL3
+
+collections:
+  portfolio:
+
+markdown: kramdown
+
+sass:
+  sass_dir: _assets
+  load_paths:
+    - node_modules
+  quiet_deps: true
+  silence_deprecations:
+    - import
+  style: compressed
+
+webserver_headers:
+  - - Access-Control-Allow-Origin
+    - "*"
+  - - Access-Control-Allow-Methods
+    - GET, OPTIONS, HEAD
+
+logo:
+  path: /assets/img/logo/oobalink logo.png
+
+exclude: [node_modules,webpack.config.js,package.json,package-lock.json]
+
+group: oobalink
+
+company: oobalink Northern Suburbs
+
+url: https://www.oobalink-ns.co.za
+
+address: 48 Drakenstein Road, Durbanville Hills, Cape Town, 7550

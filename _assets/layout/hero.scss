@@ -1,0 +1,145 @@
+// Styling for the hero
+header.masthead {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 75vh;
+  padding: 120px 0 80px;
+  color: $white;
+  text-align: center;
+  background-image: url("#{$header-image}");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  overflow: hidden;
+
+  .masthead__overlay {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(circle at center, rgba(0, 0, 0, 0.06) 0%, rgba(0, 0, 0, 0.28) 72%),
+      linear-gradient(120deg,
+        rgba(0, 0, 0, 0.48) 0%,
+        rgba(0, 0, 0, 0.22) 48%,
+        rgba(230, 14, 100, 0.16) 100%);
+  }
+
+  .masthead__content {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+  }
+
+  .masthead__intro {
+    max-width: 820px;
+    margin: 0 auto;
+    animation: masthead-fade-up 1s ease-out both;
+  }
+
+  .masthead__lead p,
+  .masthead__heading p {
+    margin: 0;
+  }
+
+  .masthead__lead {
+    font-size: clamp(1.1rem, 2.2vw, 1.6rem);
+    font-style: italic;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+    color: $white;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.72);
+    @include serif-font;
+  }
+
+  .masthead__heading {
+    font-size: clamp(2.4rem, 6vw, 4.6rem);
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 2rem;
+    color: $white;
+    text-shadow: 0 4px 22px rgba(0, 0, 0, 0.78), 0 1px 2px rgba(0, 0, 0, 0.75);
+    @include heading-font;
+  }
+
+  .masthead__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: center;
+
+    .btn {
+      margin: 0;
+      box-shadow: 0 14px 30px rgba(0, 0, 0, 0.34);
+    }
+
+    .btn-primary {
+      border-color: $white;
+      border-width: 2px;
+    }
+
+    .btn-outline-light {
+      background-color: rgba(255, 255, 255, 0.94);
+      border-color: $white;
+      color: $gray-900;
+
+      &:hover,
+      &:focus {
+        background-color: $white;
+        border-color: $white;
+        color: $primary;
+      }
+    }
+  }
+
+  .masthead__scroll {
+    position: absolute;
+    left: 50%;
+    bottom: 28px;
+    z-index: 1;
+    color: $white;
+    font-size: 1.5rem;
+    opacity: 0.85;
+    animation: masthead-bounce 2s infinite;
+
+    &:hover,
+    &:focus {
+      color: $white;
+      opacity: 1;
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  header.masthead {
+    min-height: 75vh;
+    padding: 110px 0 72px;
+  }
+}
+
+@keyframes masthead-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes masthead-bounce {
+  0%,
+  100% {
+    transform: translate(-50%, 0);
+  }
+  50% {
+    transform: translate(-50%, 8px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  header.masthead .masthead__intro,
+  header.masthead .masthead__scroll {
+    animation: none;
+  }
+}

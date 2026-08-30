@@ -1,0 +1,23 @@
+---
+layout: page
+title: Page Not Found
+description: The page you were looking for could not be found.
+background: grey
+permalink: /404.html
+noindex: true
+---
+{% assign error_page = site.data.sitetext.error_page %}
+
+<section class="page-section error-page">
+  <div class="row justify-content-center">
+    <div class="col-lg-8 text-center">
+      <p class="error-page__code">{{ error_page.code }}</p>
+      <h1 class="section-heading text-uppercase">{{ error_page.title }}</h1>
+      <h2 class="section-subheading text-muted">{{ error_page.text }}</h2>
+      <div class="error-page__actions">
+        <a class="btn btn-primary btn-xl text-uppercase" href="{{ '/' | relative_url }}">{{ error_page.home_label }}</a>
+        <a class="btn btn-outline-primary btn-xl text-uppercase" href="{{ '/contact/' | relative_url }}">{{ error_page.contact_label }}</a>
+      </div>
+    </div>
+  </div>
+</section>

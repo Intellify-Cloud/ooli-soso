@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body id="page-top"{% if page.background == "grey" or page.background == "gray" %} class="bg-light"{% endif %}>
+
+      {% include navbar.html %}
+
+      {{ content }}
+
+	  {% include footer.html %}
+
+  </body>
+</html>

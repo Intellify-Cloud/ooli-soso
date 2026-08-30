@@ -1,0 +1,94 @@
+  <footer class="footer" id="footer">
+    <div class="container footer-main">
+      <div class="footer-brand">
+        <a class="footer-logo" href="{{ '/' | relative_url }}" aria-label="{{ site.title | default: site.data.sitetext.footer.home_label }}">
+          {% if site.logo and site.logo.path %}
+            <img src="{{ site.baseurl }}{{ site.logo.path }}" alt="{{ site.company | default: site.title }}" />
+          {% else %}
+            <span class="footer-logo-text">{{ site.company | default: site.title }}</span>
+          {% endif %}
+        </a>
+
+        {% if site.data.sitetext.footer.description %}
+          <p class="footer-description">{{ site.data.sitetext.footer.description }}</p>
+        {% endif %}
+
+        {% if site.data.sitetext.footer.social and site.data.sitetext.footer.social.size > 0 %}
+          <ul class="footer-social" aria-label="{{ site.data.sitetext.footer.social_label }}">
+            {% for link in site.data.sitetext.footer.social %}
+              <li>
+                <a href="{% if link.external %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}"
+                   {% if link.external %}target="_blank" rel="noopener"{% endif %}
+                   aria-label="{{ link.title | default: site.data.sitetext.footer.social_profile_label }}">
+                  {% if link.icon %}<i class="{{ link.icon }}" aria-hidden="true"></i>{% endif %}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+
+      {% if site.data.sitetext.footer.sections and site.data.sitetext.footer.sections.size > 0 %}
+        <nav class="footer-navigation" aria-label="{{ site.data.sitetext.footer.navigation_label }}">
+          {% for section in site.data.sitetext.footer.sections %}
+            {% if section.links and section.links.size > 0 %}
+              <div class="footer-column" aria-label="{{ section.title | default: site.data.sitetext.footer.section_links_label }}">
+                {% if section.title %}
+                  <h2>{{ section.title }}</h2>
+                {% endif %}
+                <ul>
+                  {% for link in section.links %}
+                    <li>
+                      <a href="{% if link.external %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}"
+                         {% if link.external %}target="_blank" rel="noopener"{% endif %}>
+                        {{ link.text }}
+                      </a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </nav>
+      {% endif %}
+    </div>
+
+    {% if site.data.sitetext.footer.privacy_label or site.data.sitetext.footer.terms_label or site.data.sitetext.footer.credits and site.data.sitetext.footer.credits.size > 0 %}
+      <div class="footer-bottom">
+        <div class="container footer-bottom-inner">
+          <div class="footer-bottom-item footer-copyright">
+            {{ site.data.sitetext.footer.copyright_prefix | default: 'Copyright' }} &copy; {{ site.company | default: site.title }} {{ 'now' | date: '%Y' }}
+          </div>
+
+          {% if site.data.sitetext.footer.privacy_label %}
+            <a class="footer-bottom-item" href="{% if site.data.sitetext.footer.privacy_external %}{{ site.data.sitetext.footer.privacy_url }}{% else %}{{ site.data.sitetext.footer.privacy_url | relative_url }}{% endif %}"
+               {% if site.data.sitetext.footer.privacy_external %}target="_blank" rel="noopener"{% endif %}>
+              {{ site.data.sitetext.footer.privacy_label }}
+            </a>
+          {% endif %}
+
+          {% if site.data.sitetext.footer.terms_label %}
+            <a class="footer-bottom-item" href="{% if site.data.sitetext.footer.terms_external %}{{ site.data.sitetext.footer.terms_url }}{% else %}{{ site.data.sitetext.footer.terms_url | relative_url }}{% endif %}"
+               {% if site.data.sitetext.footer.terms_external %}target="_blank" rel="noopener"{% endif %}>
+              {{ site.data.sitetext.footer.terms_label }}
+            </a>
+          {% endif %}
+
+          {% if site.data.sitetext.footer.credits and site.data.sitetext.footer.credits.size > 0 %}
+            {% for credit in site.data.sitetext.footer.credits limit:2 %}
+              <a class="footer-bottom-item" href="{% if credit.external %}{{ credit.url }}{% else %}{{ credit.url | relative_url }}{% endif %}"
+                 {% if credit.external %}target="_blank" rel="noopener"{% endif %}>
+                {{ credit.text }}
+              </a>
+            {% endfor %}
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+  </footer>
+
+  <div class="whatsapp">
+    <a href="https://api.whatsapp.com/send?phone=27827713117" target="_blank" rel="noopener">
+      <h4><i class="fab fa-whatsapp fa-2x" aria-hidden="true"></i></h4>{{ site.data.sitetext.footer.whatsapp_label }}
+    </a>
+  </div>

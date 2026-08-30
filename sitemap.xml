@@ -1,0 +1,19 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% assign sorted_pages = site.pages | sort: 'url' %}
+  {% for page in sorted_pages %}
+  {% if page.layout and page.layout != "none" and page.noindex != true and page.name != "404.html" %}
+  <url>
+    <loc>{{ site.url }}{{ page.url | replace:'index.html','' | default: '/' }}</loc>
+    {% if page.last_modified %}<lastmod>{{ page.last_modified | date_to_xmlschema }}</lastmod>{% endif %}
+    {% if page.date %}<lastmod>{{ page.date | date_to_xmlschema }}</lastmod>{% endif %}
+    <changefreq>{% if page.url == '/' %}daily{% elsif page.url contains '-calculator' %}weekly{% else %}monthly{% endif %}</changefreq>
+    <priority>{% if page.url == '/' %}1.0{% elsif page.url contains '-calculator' %}0.9{% else %}0.8{% endif %}</priority>
+  </url>
+  {% endif %}
+  {% endfor %}
+</urlset>

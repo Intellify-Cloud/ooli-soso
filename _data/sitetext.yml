@@ -1,0 +1,379 @@
+header:
+    title: 
+    text: Home Loan & Bond Origination in Cape Town
+    cta_text: "Talk To Us"
+    cta_url: "/contact"
+    branches:
+      - name: Name Suburbs
+        link: "/"
+
+navbar:
+    menu_label: "Menu"
+
+
+services:
+    title: "Services We Offer"
+    text: "We get you the most competitive rate by sourcing quotes from the banks for you to compare."
+    section: services
+    list:
+      - title: "Bond Origination"
+        desc: "We liaise with all the banks to guarantee you the BEST deal on your Home Loan."
+        icon: fas fa-home
+        link: 
+          url: mailto:antonellawerth@ooba-link.co.za?subject=Mail from oobalink Northern Suburbs website
+          text: "Email Us"
+      - title: "Pre-qualification"
+        desc: "With a pre-qualification that is done by us, you can determine for which amount you qualify for when applying for a Home Loan."
+        icon: fas fa-tasks       
+        link:
+          url: tel:+27827713117 
+          text: "Call: 082 771 3117"
+      - title: "Still Looking for a Home?"
+        desc: "I am still searching for property using property portals, newspapers and visiting show houses but would like to ask a few questions."
+        icon: fas fa-search
+        link: 
+          url: mailto:antonellawerth@ooba-link.co.za?subject=Mail from oobalink Northern Suburbs website
+          text: "Email Us"
+
+articles:
+    title: "Articles"
+    text: "Here is a list of our articles that can help inform you about news in homeloans, interest rates and the South African property market."
+    section: articles
+    read_more: "Read more"
+
+calculators:
+    title: "Home Loan Calculators"
+    text: "Use our Home loan Calculators to work out the size of home loan you are likely to qualify for and what your bond repayments will be."
+    section: calculators
+    list:
+      - title: "Bond Calculator"
+        desc: "Calculate the home loan you qualify for."
+        icon: fas fa-calculator
+        link: 
+          url: /affordability-calculator
+          text: "Calculate"
+      - title: "Repayment Calculator"
+        desc: "Calculate your monthly bond repayments."
+        icon: fas fa-calculator   
+        link:
+          url: /bond-calculator
+          text: "Calculate"
+      - title: "Transfer Cost Calculator"
+        desc: "Calculate your registration and transfer costs."
+        icon: fas fa-calculator   
+        link:
+          url: /transfer-cost-calculator
+          text: "Calculate"
+
+
+more-calculators:
+    title: "More Calculators"
+    text: ""
+    section: more-calculators
+    list:
+      - title: "Deposit Savings Calculator"
+        desc: "Calculate how much you need to save for your deposit."
+        icon: fas fa-calculator   
+        link:
+          url: /deposit-savings-calculator
+          text: "Calculate"
+      - title: "Amortisation Calculator"
+        desc: "Calculate how your repayment is structured."
+        icon: fas fa-calculator   
+        link:
+          url: /amortisation-calculator
+          text: "Calculate"
+
+textblock:
+    title: "Why oobalink Northern Suburbs"
+    text: "Home loans are our business, and our focus is getting your bond approved."
+    footer: "Our service is completely free, with no obligation."
+    section: textblock
+    list:
+      - title: "We prequalify you before you start house hunting."
+        image: "fa-check"
+      - title: "We assist you in completing one set of application forms which we submit to the banks, including your own, to obtain the necessary quotes."
+        image: "fa-check"
+      - title: "We negotiate with the banks to help you secure the best possible deal and interest rate."
+        image: "fa-check"
+      - title: "We keep you informed throughout the home loan process."
+        image: "fa-check"
+      - title: "We help make the bond application process as easy and hassle free as possible."
+        image: "fa-check"
+
+portfolio:
+    title: "Other Services"
+    text: "Some of our work"
+    section: portfolio
+    closebutton: "Close"
+    modal_comment: "Project details"
+    
+about:
+    title: "About Us"
+    text2: "The company is headed by Antonella Werth, who is a partner in the oobalink group of originators. 
+    She has many years of experience in home finance and since establishing the business in 2004, it has grown 
+    exponentially and has become a well known and highly respected player in the bond origination market. 
+    Oobalink Northern Suburbs has a national footprint that enables them to do Home Loans countrywide.
+    <br><br>
+    Through the years we have built great relationships with estate agencies, estate agents, developers, clients and the banks.
+    <br><br>
+    We pride ourselves on outstanding service and finding the best deal for you and making the whole mortgage process as easy and hassle free as possible
+     and keep you informed every step of the way.
+    <br><br>
+    We speed up the process of applications via electronic submission to the various banks to ensure you get the competitive edge and thus the best deal possible.
+    <br><br>
+    Our Mission says it all: “We don’t want to be the biggest, only the best!”
+    <br><br>
+    Bearing this in mind, please put us to the test when buying your next property.
+    "
+    
+clients:
+    title: Bank Partners
+    text: "Trusted partners we work with to help secure the right home loan for you."
+    section: clients
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "ABSA"
+        url: https://www.absa.co.za
+        logo: assets/img/clients/absa-bw.png
+      - title: "FNB"
+        url: https://www.fnb.co.za/
+        logo: assets/img/clients/fnb-n.png
+      - title: "Investec"
+        url: https://www.investec.co.za/
+        logo: assets/img/clients/investec.png
+      - title: "Rand Merchant Bank"
+        url: https://www.rmb.co.za
+        logo: assets/img/clients/rmb-img-n.png
+      - title: "Nedbank"
+        url: https://www.nedbank.co.za
+        logo: assets/img/clients/nedbank-bw.png
+      - title: "Standard Bank"
+        url: https://www.standardbank.co.za/
+        logo: assets/img/clients/SBSA-bw.png
+      - title: "Sentinal Homes"
+        url: "#"
+        logo: assets/img/clients/sentinal-homes.png
+      - title: "HIP"
+        url: "#"
+        logo: assets/img/clients/hip.jpg
+    
+team:
+    title: "THE TEAM"
+    text: "Meet the people who guide your home loan application with experience, clarity, and personal care from start to finish."
+    # subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    section: team
+    contact: 
+    people:
+      - name: "Antonella Werth"
+        role: "Executive Director"
+        image: assets/img/team/oobalink-northernsuburbs-antonella-werth.jpg
+        social:
+          - url: tel:083 647 2978
+            icon: fas fa-phone
+          - url: mailto:antonellawerth@ooba-link.co.za?subject=Website Enquiry
+            icon: fas fa-envelope
+          # - url: https://www.facebook.com/xxx
+          #   icon: fab fa-facebook-f
+          # - url: https://www.linkedin.com/in/xxx
+          #   icon: fab fa-linkedin-in
+
+      - name: "Natasha Hartley"
+        role: "Bond Admininistrator"
+        image: assets/img/team/oobalink-northernsuburbs-natasha-hartley.jpg
+        social:
+          - url: tel:076 312 8323 
+            icon: fas fa-phone
+          - url: mailto:natasha@ooba-link.co.za?subject=Website Enquiry
+            icon: fas fa-envelope
+          # - url: https://www.facebook.com/xxx
+          #   icon: fab fa-facebook-f
+          # - url: https://www.linkedin.com/in/xxx
+          #   icon: fab fa-linkedin-in
+
+      - name: "Franco Werth"
+        role: "Operations Director"
+        image: assets/img/team/oobalink-northernsuburbs-franco-werth.jpg
+        social:
+          - url: tel:083 647 2978 
+            icon: fas fa-phone
+          - url: mailto:franco@ooba-link.co.za?subject=Website Enquiry
+            icon: fas fa-envelope
+          # - url: https://www.facebook.com/xxx
+          #   icon: fab fa-facebook-f
+          # - url: https://www.linkedin.com/in/xxx
+          #   icon: fab fa-linkedin-in
+
+
+testimonials:
+    title: "TESTIMONIALS"
+    text: "What Others Say About Us"
+    section: testimonials
+    people:
+      - name: "Grant B."
+        testimony: "I am so impressed! I will certainly be singing your praises to my friends and family should they require your assistance!"
+
+      - name: "José F."
+        testimony: "Thank you for your assistance with our bond application.  Your advice, efficiency and friendliness made a normally painstaking process a pleasurable one.  I will be sure to recommend your service."
+
+      - name: "Johan V."
+        testimony: "Wel gedaan ook aan jou en jou span! Ek kan nie in woorde omsit hoe baie julle doeltreffendheid en manier van werk my beïndruk nie!"
+
+      - name: "Grant N."
+        testimony: "It has been a great pleasure dealing with you during the last while. Your professional and courteous support is greatly appreciated."        
+
+      - name: "Colleen and Andre K."
+        testimony: "Just a note to say a huge thank you for your assistance with our bond application, your professional service made the whole process effortless for us."
+
+      - name: "Monique M."
+        testimony: "We will definitely make use of oobalink Northern Suburbs again. What wonderful service!"
+
+contact:
+    title: "Contact Us"
+    text: "Ready to start? Call, email or WhatsApp us for obligation-free home-loan pre-qualification assistance."
+    section: contact
+    form:
+      name_placeholder: "Name*"
+      name_required: "Please enter your name."
+      email_placeholder: "Email*"
+      email_required: "Please enter your email address."
+      phone_placeholder: "Phone Number*"
+      phone_required: "Please enter your phone number."
+      message_placeholder: "Message*"
+      message_required: "Please enter a message."
+      subject: "Contact Form Submission"
+      submit: "Send Message"
+
+faq:
+    title: "Frequently Asked Questions"
+    text: "Home loans, pre-approval and bond origination explained"
+    section: faq
+    disclaimer: "This information is general guidance only. Approval, interest rates and lending decisions are subject to each bank's assessment and their specific criteria. For advice on your situation, please"
+    disclaimer_link_text: "contact us"
+    items:
+      - question: "What does a bond originator do?"
+        answer: "A bond originator submits your home-loan application to several banks on your behalf, compares the quotes they return, and helps you negotiate a competitive interest rate. A bond originator is not a lender; we act as your intermediary with the banks and guide you through the paperwork and the process from application to registration."
+      - question: "How does home-loan pre-approval work?"
+        answer: "Pre-approval is an assessment of your income, expenses and existing debt to indicate how much you may be able to borrow. It helps you shop for a home within a realistic price range. Pre-approval is an indication only; the final amount, rate and approval remain subject to the selected bank's full assessment and the signed purchase agreement."
+      - question: "What documents do I need for a home loan?"
+        answer: "Most banks ask for a copy of your ID, proof of income, three to six months of bank statements, proof of residence, and the signed offer to purchase once you have one. Having these ready helps avoid delays."
+      - question: "How long does bond approval take?"
+        answer: "Timelines vary by bank and by how complete your application is. A straightforward application with all documents submitted can often be assessed within a few working days, while more complex cases may take a few weeks."
+      - question: "Can self-employed applicants qualify for a home loan?"
+        answer: "Yes. Self-employed buyers can qualify, usually with additional documentation such as personal and business financial statements, SARS tax returns and bank statements. Lenders assess affordability in the same way, so clear, well-organised records make the process smoother."
+      - question: "Can I refinance or switch my existing home loan?"
+        answer: "Yes. If you already have a bond, it is often worth reviewing your rate. A bond originator can request quotes from other banks to see whether switching or refinancing could lower your monthly repayment. Any saving depends on current rates, your profile and the bank's assessment."
+      - question: "Will an initial enquiry affect my credit score?"
+        answer: "An initial, obligation-free conversation with us does not affect your credit score. A formal credit enquiry is only triggered when a lender runs a credit check as part of an actual application. We will always explain this before anything is submitted to a bank."
+      - question: "Are there costs to use a bond originator?"
+        answer: "For standard home loans, bond originator commission is generally paid by the lending bank rather than by you. It is always best to confirm the specific arrangement with us, and we are happy to explain it clearly before you proceed."
+
+calculator_pages:
+    cta_label: "Start Calculating"
+    contact_label: "Contact Us"
+    faq_intro: "A few quick answers before you take the next step."
+    bond:
+      hero_eyebrow: "Home Loan Calculator"
+      hero_title: "Bond Repayment Calculator"
+      hero_text: "Estimate your monthly bond repayments and get a clearer view of what your home loan could cost before you apply."
+      anchor: "bond-calculator"
+      iframe_title: "Bond Calculator"
+      faq_title: "Bond Calculator FAQs"
+      faqs:
+        - question: "What does a bond repayment calculator show?"
+          answer: "It estimates your monthly repayment based on the loan amount, interest rate, and repayment term."
+        - question: "Is this the final amount the bank will offer?"
+          answer: "No. It is a guide. The bank will still assess your income, expenses, credit profile, and the property details."
+        - question: "Can oobalink help me compare bank offers?"
+          answer: "Yes. We submit your application to multiple banks and help you compare the available offers."
+        - question: "What should I do after calculating my repayment?"
+          answer: "Speak to us about prequalification so you know what you can shop for with more confidence."
+    transfer:
+      hero_eyebrow: "Property Purchase Calculator"
+      hero_title: "Transfer Cost Calculator"
+      hero_text: "Estimate the bond and transfer costs involved in buying a home with the oobalink Northern Suburbs transfer cost calculator."
+      anchor: "transfer-calculator"
+      iframe_title: "Transfer Cost Calculator"
+      faq_title: "Transfer Cost Calculator FAQs"
+      faqs:
+        - question: "What does a transfer cost calculator show?"
+          answer: "It estimates the costs involved in transferring property ownership, including transfer duty, conveyancing fees, and other related expenses."
+        - question: "Are transfer costs the same for every property?"
+          answer: "No. Transfer costs vary based on the property value, the type of property, and the specific requirements of the transaction."
+        - question: "Can oobalink help me understand these costs?"
+          answer: "Yes. We walk you through the transfer cost breakdown and connect you with trusted conveyancers to keep your purchase on track."
+        - question: "When do I pay transfer costs?"
+          answer: "Transfer costs are typically paid before the property is transferred into your name, usually within a few days of registration."
+
+error_page:
+    code: "404"
+    title: "Page Not Found"
+    text: "The page you were looking for may have moved, or the link may no longer be available."
+    home_label: "Back Home"
+    contact_label: "Contact Us"
+    
+footer:
+    copyright_prefix: "Copyright"
+    description: "Helping homeowners and property buyers make confident financing decisions with practical advice and responsive support."
+    home_label: "Home"
+    navigation_label: "Footer navigation"
+    privacy_label: "Privacy Statement"
+    privacy_url: "/privacy-statement"
+    terms_label: "Data Sharing"
+    terms_url: "/data-sharing-agreement"
+    social_label: "Social links"
+    social_profile_label: "Social profile"
+    section_links_label: "Footer links"
+    whatsapp_label: "Chat"
+    sections:
+      - title: "Explore"
+        links:
+          - text: "About"
+            url: "/about"
+          - text: "Services"
+            url: "/#services"
+          - text: "Articles"
+            url: "/#articles"
+      - title: "Resources"
+        links:
+          - text: "Bond calculator"
+            url: "/bond-calculator"
+          - text: "Affordability calculator"
+            url: "/affordability-calculator"
+          - text: "Deposit savings calculator"
+            url: "/deposit-savings-calculator"
+          - text: "Transfer cost calculator"
+            url: "/transfer-cost-calculator"
+          - text: "Amortisation calculator"
+            url: "/amortisation-calculator"
+          - text: "Extra repayment calculator"
+            url: "/extra-repayment-calculator"
+      - title: "Contact"
+        links:
+          - text: "+27 82 771 3117"
+            url: "tel:+27827713117"
+            external: true
+          - text: "antonellawerth@ooba-link.co.za"
+            url: "mailto:antonellawerth@ooba-link.co.za"
+            external: true
+          - text: "48 Drakenstein Road, Durbanville Hills"
+            url: "/contact"
+    social:
+      - title: "LinkedIn"
+        url: "https://www.linkedin.com"
+        icon: "fab fa-linkedin-in"
+        external: true
+      - title: "Facebook"
+        url: "https://www.facebook.com"
+        icon: "fab fa-facebook-f"
+        external: true
+    credits:
+      - text: "Powered by oobalink"
+        url: "https://www.ooba-link.co.za"
+        external: true
+      - text: "Site by intellify.co.za"
+        url: "https://intellify.co.za"
+        external: true
+
+
+# {{ site.data.sitetext.ex.ex | markdownify | default: example }}

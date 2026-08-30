@@ -1,0 +1,107 @@
+.team {
+  background-color: $white;
+}
+
+.team__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.team__card {
+  display: flex;
+  max-width: 330px;
+  min-width: 0;
+  overflow: hidden;
+  flex-direction: column;
+  background-color: $white;
+  border: 1px solid $gray-300;
+  border-radius: $surface-radius;
+  box-shadow: $surface-shadow;
+}
+
+.team__image-wrap {
+  aspect-ratio: 4 / 3;
+  min-height: calc((330px * 3 / 4) + 30px);
+  overflow: hidden;
+  background-color: $gray-200;
+}
+
+.team__photo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.team__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.5rem 2rem 2.75rem;
+  text-align: center;
+}
+
+.team__name {
+  margin: 0 0 0.35rem;
+  color: $gray-900;
+  font-size: 1.25rem;
+  font-weight: 900;
+  line-height: 1.25;
+  text-transform: none;
+}
+
+.team__role {
+  margin: 0 0 1rem;
+  color: $gray-600;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+.team__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  list-style: none;
+  margin: auto 0 0;
+  padding: 0;
+}
+
+.team__actions a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.6rem;
+  height: 3.6rem;
+  color: $primary;
+  background-color: rgba($primary, 0.08);
+  border-radius: 50%;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.team__actions a:hover,
+.team__actions a:focus {
+  color: darken($primary, 20%);
+  background-color: rgba($primary, 0.18);
+  text-decoration: none;
+}
+
+@media (max-width: 991.98px) {
+  .team__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 575.98px) {
+  .team__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .team__body {
+    padding: 2rem 1.5rem 2.25rem;
+  }
+}

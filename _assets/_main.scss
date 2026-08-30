@@ -1,0 +1,54 @@
+@charset "utf-8";
+@import "bootstrap/scss/functions";
+
+$header-image: "../img/hero-image.jpg";
+$contact-image: "../img/contact.png";
+
+$primary: #e60e64;
+$white: #fff;
+$black: #000;
+
+$spacer:1rem;
+$border-width:3px;
+$border-radius:0;
+$enable-rounded: false;
+$enable-shadows:false;
+$enable-gradients:false;
+
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+@import "bootstrap/scss/bootstrap";
+
+@import "base/variables.scss";
+@import "base/mixins.scss";
+@import "base/page.scss";
+
+@import "components/buttons.scss";
+@import "components/navbar";
+@import "components/client-scroll.scss";
+
+@import "layout/hero";
+@import "layout/services.scss";
+@import "layout/portfolio.scss";
+@import "layout/team.scss";
+@import "layout/testimonials.scss";
+@import "layout/contact.scss";
+@import "layout/footer.scss";
+@import "layout/clients.scss";
+@import "layout/textblock.scss";
+@import "layout/about.scss";
+
+body {
+    overflow-x: hidden;
+    // font-family: "Roboto Slab","Roboto Condensed",sans-serif,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Comfortaa', cursive;
+    webkit-tap-highlight-color: $primary;
+}
+
+.post {
+    max-width: 750px;
+    margin-top: 150px;
+}

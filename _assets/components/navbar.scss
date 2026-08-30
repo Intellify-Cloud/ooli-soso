@@ -1,0 +1,103 @@
+/*!
+ * Styling for the navbar
+ */
+.site-header {
+  min-height: 85px;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: $white;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
+  transition: min-height 0.25s ease;
+
+  .container {
+    min-height: 85px;
+    transition: min-height 0.25s ease;
+  }
+
+  .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    background-color: $primary;
+    @include heading-font;
+  }
+
+  .navbar-brand {
+    color: $primary;
+    @include script-font;
+
+    &.active,
+    &:active,
+    &:focus,
+    &:hover {
+      color: darken($primary, 10%);
+    }
+  }
+
+  .navbar-brand > img {
+    height: 58px;
+    transition: height 0.25s ease;
+  }
+
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        font-size: 98%;
+        font-weight: bold;
+        padding: 0.75em 0;
+        letter-spacing: 1.5px;
+        color: #000;
+        @include heading-font;
+
+        &.active,
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+  }
+
+  &.navbar-shrink {
+    min-height: 70px;
+
+    .container {
+      min-height: 70px;
+    }
+
+    .navbar-brand > img {
+      height: 46px;
+    }
+  }
+}
+
+@media(min-width:992px) {
+  .site-header {
+    border: none;
+    background-color: $white;
+
+    .navbar-brand {
+      font-size: 2em;
+    }
+
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          padding: 1.1em 1em !important;
+        }
+      }
+    }
+
+    &.navbar-shrink {
+      .navbar-brand {
+        font-size: 1.75em;
+      }
+
+      .navbar-brand > img {
+        height: 46px;
+      }
+    }
+  }
+}

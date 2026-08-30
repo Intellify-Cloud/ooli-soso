@@ -1,0 +1,104 @@
+// Styling for the contact section
+section.contact {
+  background-color: $gray-900;
+  background-image: url("#{$contact-image}");
+  background-repeat: no-repeat;
+  background-position: center;
+  .section-heading {
+    color: $white;
+  }
+  .form-group {
+    margin-bottom: 25px;
+    input,
+    textarea {
+      padding: 20px;
+    }
+    input.form-control {
+      height: auto;
+    }
+    textarea.form-control {
+      height: 248px;
+    }
+  }
+  .form-control:focus {
+    border-color: $primary;
+    box-shadow: none;
+  }
+  ::-webkit-input-placeholder {
+    font-weight: 700;
+    color: $gray-400;
+    @include heading-font;
+  }
+  :-moz-placeholder {
+    font-weight: 700;
+    color: $gray-400;
+    @include heading-font;
+  }
+  ::-moz-placeholder {
+    font-weight: 700;
+    color: $gray-400;
+    @include heading-font;
+  }
+  :-ms-input-placeholder {
+    font-weight: 700;
+    color: $gray-400;
+    @include heading-font;
+  }
+}
+
+.contact__details p {
+  margin-bottom: .25em;
+}
+
+.contact__details {
+  .row {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}
+
+.contact__card {
+  background-color: $white;
+  border: 2px solid transparent;
+  border-radius: $surface-radius;
+  padding: 2rem 1.75rem;
+  box-shadow: $surface-shadow;
+  height: 100%;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+
+  &:hover,
+  &:focus-within {
+    transform: translateY(-2px);
+    box-shadow: $surface-shadow-hover;
+  }
+
+  &-title {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    color: $gray-800;
+  }
+
+  &--primary {
+    border-color: $primary;
+
+    a {
+      color: $primary;
+      text-decoration: none;
+
+      &:hover,
+      &:focus {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &--secondary {
+    border-color: $brand-green;
+  }
+
+  p {
+    margin-bottom: 0.5rem;
+    color: $gray-800;
+  }
+}

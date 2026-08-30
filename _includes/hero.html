@@ -1,0 +1,21 @@
+<!-- Hero -->
+<header class="masthead">
+  <div class=".masthead__overlay" aria-hidden="true"></div>
+  <div class="container masthead__content">
+    <div class="masthead__intro">
+      {%- if site.data.sitetext.header.title -%}
+      <p class="masthead__lead">{{ site.data.sitetext.header.title | markdownify }}</p>
+      {%- endif -%}
+      {%- if site.data.sitetext.header.text -%}
+      <h1 class="masthead__heading">{{ site.data.sitetext.header.text | markdownify }}</h1>
+      {%- endif -%}
+      <div class="masthead__actions">
+        <a class="btn btn-primary btn--xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext.header.cta_url | relative_url }}">{{ site.data.sitetext.header.cta_text }}</a>
+      </div>
+    </div>
+  </div>
+  <a class="masthead__scroll js-scroll-trigger" href="#services" aria-label="Scroll to content">
+    <i class="fas fa-chevron-down" aria-hidden="true"></i>
+  </a>
+</header>
+<!-- End Hero -->

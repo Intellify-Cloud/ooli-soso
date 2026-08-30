@@ -1,0 +1,42 @@
+.clients {
+  @include section-light-surface;
+}
+
+.clients__grid {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1.25rem;
+  align-items: stretch;
+  overflow-x: auto;
+  padding-bottom: 2.5rem;
+  scrollbar-width: thin;
+}
+
+.clients__item {
+  flex: 1 0 0;
+  min-width: 144px;
+  aspect-ratio: 1 / 1;
+}
+
+.clients__link {
+  @include square-logo-link;
+}
+
+.clients__logo {
+  @include contain-logo;
+}
+
+@media (max-width: 575.98px) {
+  .clients__grid {
+    gap: 0.85rem;
+  }
+
+  .clients__item {
+    flex-basis: 50vw;
+  }
+
+  .clients__link {
+    padding: 1rem;
+    border-radius: $surface-radius-sm;
+  }
+}

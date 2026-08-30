@@ -1,0 +1,16 @@
+{
+  "name": "intellify",
+  "version": "1.0.0",
+  "description": "Get online. Grow online. Intellify your business to reach new heights.",
+  "scripts": {
+    "build": "jekyll build --baseurl ''",
+    "serve": "jekyll serve --baseurl ''",
+    "trace": "jekyll serve --trace --baseurl ''"
+  },
+  "author": "Intellify-Cloud",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "5.3.8"
+  },
+  "dependencies": {}
+}
