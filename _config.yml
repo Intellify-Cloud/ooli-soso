@@ -49,3 +49,9 @@ company: oobalink Northern Suburbs
 url: https://www.oobalink-ns.co.za
 
 address: 48 Drakenstein Road, Durbanville Hills, Cape Town, 7550
+
+# Search-engine ownership verification (leave empty until keys are confirmed).
+# Google: Google Search Console -> URL-prefix property -> HTML tag.
+# Bing:   Bing Webmaster Tools -> Add site manually -> Crawl control -> meta tag.
+google_site_verification: ""
+bing_site_verification: ""

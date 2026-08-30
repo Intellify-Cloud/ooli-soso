@@ -6,6 +6,7 @@ background: white
 canonical_url: /faq/
 permalink: /faq/
 full_width: true
+date_modified: 2026-08-30
 ---
 
 {% include faq.html %}

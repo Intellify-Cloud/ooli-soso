@@ -29,7 +29,8 @@
         "name": "oobalink"
       },
       "sameAs": [
-        {{ site.url | jsonify }}
+        {{ site.url | jsonify }}{% for social in site.social %}{% if social[1] and social[1] != "" %},
+        {{ social[1] | jsonify }}{% endif %}{% endfor %}
       ]
     },
     {
