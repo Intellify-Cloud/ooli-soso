@@ -9,8 +9,8 @@
       "@type": ["FinancialService", "LocalBusiness"],
       "name": {{ org_name | jsonify }},
       "url": {{ org_url | jsonify }},
-      "logo": "{{ site.logo.path | absolute_url }}",
-      "image": "{{ '/social.jpg' | absolute_url }}",
+      "logo": {{ site.logo.path | absolute_url | jsonify }},
+      "image": {{ '/social.jpg' | absolute_url | jsonify }},
       "description": {{ site.description | jsonify }},
       "email": {{ site.email | jsonify }},
       "telephone": {{ site.telephone | jsonify }},
@@ -24,89 +24,67 @@
       },
       "areaServed": {{ site.service_area | jsonify }},
       "priceRange": "Free to customer",
-      "parentOrganization": { "@type": "Organization", "name": "oobalink" },
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "oobalink"
+      },
       "sameAs": [
-        "https://www.oobalink-ns.co.za"
+        {{ site.url | jsonify }}
       ]
     },
     {
       "@type": "WebSite",
       "url": {{ org_url | jsonify }},
       "name": {{ org_name | jsonify }},
-      "publisher": { "@type": "Organization", "name": {{ org_name | jsonify }} },
+      "publisher": {
+        "@type": "Organization",
+        "name": {{ org_name | jsonify }}
+      },
       "inLanguage": "en-ZA"
     },
     {
       "@type": "WebPage",
-      "name": "{{ page.title | default: site.title | escape }}",
-      "description": "{{ page.description | default: site.description | escape }}",
-      "url": "{{ canonical_path | absolute_url }}",
+      "name": {{ page.title | default: site.title | jsonify }},
+      "description": {{ page.description | default: site.description | jsonify }},
+      "url": {{ canonical_path | absolute_url | jsonify }},
       "inLanguage": "en-ZA",
       "publisher": {
         "@type": "Organization",
         "name": {{ org_name | jsonify }}
       }
-    }
-  ]
-}
-</script>
-{% if page.url == '/faq/' %}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    { "@type": "Question", "name": "What does a bond originator do?", "acceptedAnswer": { "@type": "Answer", "text": "A bond originator submits your home-loan application to several banks on your behalf, compares the quotes they return, and helps you negotiate a competitive interest rate. A bond originator is not a lender — we act as your intermediary with the banks from application to registration." } },
-    { "@type": "Question", "name": "What is pre-qualification and why does it matter?", "acceptedAnswer": { "@type": "Answer", "text": "Pre-qualification is an assessment of your income, expenses and existing debt to indicate how much you may be able to borrow. It is an indication only — the final amount, rate and approval remain subject to the selected bank's full assessment." } },
-    { "@type": "Question", "name": "What documents are needed for a home loan?", "acceptedAnswer": { "@type": "Answer", "text": "Most banks ask for a copy of your ID, proof of income (payslips and IRP5, or financial statements and tax returns for the self-employed), three to six months of bank statements, proof of residence, and the signed offer to purchase." } },
-    { "@type": "Question", "name": "How long does bond approval take?", "acceptedAnswer": { "@type": "Answer", "text": "Timelines vary by bank and by how complete your application is. A straightforward application with all documents can often be assessed within a few working days, while more complex cases may take a few weeks." } },
-    { "@type": "Question", "name": "Can self-employed applicants qualify for a home loan?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Self-employed buyers can qualify, usually with additional documentation such as personal and business financial statements, SARS tax returns and bank statements." } },
-    { "@type": "Question", "name": "Can I get a home loan with a low deposit?", "acceptedAnswer": { "@type": "Answer", "text": "The standard minimum deposit is typically 10% of the property value, though some banks may accept lower amounts. A larger deposit reduces your monthly repayment and may improve your loan terms." } },
-    { "@type": "Question", "name": "Can I refinance or switch my existing home loan?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. If you already have a bond, it is often worth reviewing whether switching lenders or refinancing could lower your monthly repayment. Any saving depends on current rates, your profile and the bank's assessment." } },
-    { "@type": "Question", "name": "Does making an enquiry affect my credit score?", "acceptedAnswer": { "@type": "Answer", "text": "An initial, obligation-free conversation with us does not affect your credit score. A formal credit enquiry is only triggered when a lender runs a credit check as part of an actual application." } },
-    { "@type": "Question", "name": "Are there costs to use a bond originator?", "acceptedAnswer": { "@type": "Answer", "text": "For standard home loans, bond originator commission is generally paid by the lending bank rather than by you, but it is always best to confirm the specific arrangement before proceeding." } },
-    { "@type": "Question", "name": "How much home loan can I qualify for?", "acceptedAnswer": { "@type": "Answer", "text": "Banks typically lend up to around 80-90% of the property value or purchase price. Your exact affordability depends on your income, expenses, existing debts, credit profile and the current interest rate." } }
-  ]
-}
-</script>
-{% endif %}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-  "itemListElement": [
+    },
     {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "{{ '/' | absolute_url }}"
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": {{ '/' | absolute_url | jsonify }}
+        }
+        {% if page.breadcrumb_parent %}
+        ,{
+          "@type": "ListItem",
+          "position": 2,
+          "name": {{ page.breadcrumb_parent_label | default: 'Services' | jsonify }},
+          "item": {{ page.breadcrumb_parent | absolute_url | jsonify }}
+        }
+        ,{
+          "@type": "ListItem",
+          "position": 3,
+          "name": {{ page.title | default: 'Page' | jsonify }},
+          "item": {{ canonical_path | absolute_url | jsonify }}
+        }
+        {% else %}
+        ,{
+          "@type": "ListItem",
+          "position": 2,
+          "name": {{ page.title | default: 'Page' | jsonify }},
+          "item": {{ canonical_path | absolute_url | jsonify }}
+        }
+        {% endif %}
+      ]
     }
-    {% if page.breadcrumb_parent %}
-    ,{
-      "@type": "ListItem",
-      "position": 2,
-      "name": "{{ page.breadcrumb_parent_label | default: 'Services' }}",
-      "item": "{{ page.breadcrumb_parent | absolute_url }}"
-    }
-    ,{
-      "@type": "ListItem",
-      "position": 3,
-      "name": "{{ page.title | default: 'Page' | escape }}",
-      "item": "{{ canonical_path | absolute_url }}"
-    }
-    {% else %}
-    ,{
-      "@type": "ListItem",
-      "position": 2,
-      "name": "{{ page.title | default: 'Page' | escape }}",
-      "item": "{{ canonical_path | absolute_url }}"
-    }
-    {% endif %}
   ]
 }
 </script>

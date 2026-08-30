@@ -26,6 +26,7 @@ sass:
   load_paths:
     - node_modules
   quiet_deps: true
+  sourcemap: never
   silence_deprecations:
     - import
   style: compressed
@@ -39,7 +40,7 @@ webserver_headers:
 logo:
   path: /assets/img/logo/oobalink logo.png
 
-exclude: [node_modules,webpack.config.js,package.json,package-lock.json]
+exclude: [node_modules,webpack.config.js,package.json,package-lock.json,README.md]
 
 group: oobalink
 

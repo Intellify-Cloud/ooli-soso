@@ -267,6 +267,12 @@ faq:
         answer: "An initial, obligation-free conversation with us does not affect your credit score. A formal credit enquiry is only triggered when a lender runs a credit check as part of an actual application. We will always explain this before anything is submitted to a bank."
       - question: "Are there costs to use a bond originator?"
         answer: "For standard home loans, bond originator commission is generally paid by the lending bank rather than by you. It is always best to confirm the specific arrangement with us, and we are happy to explain it clearly before you proceed."
+      - question: "Can I get a home loan with a low deposit?"
+        answer: "The standard minimum deposit is typically 10% of the property value, though some banks may accept lower amounts. A larger deposit reduces your monthly repayment and may improve your loan terms. Use our <a href=\"/deposit-savings-calculator\">deposit savings calculator</a> to estimate how much you need to save."
+      - question: "How much home loan can I qualify for?"
+        answer: "Banks typically lend up to around 80-90% of the property value or purchase price. Your exact affordability depends on your income, expenses, existing debts, credit profile and the current interest rate. Use our <a href=\"/affordability-calculator\">affordability calculator</a> for an estimate."
+      - question: "What is the difference between pre-qualification and final approval?"
+        answer: "Pre-qualification is a preliminary estimate based on the information you provide. Final approval requires a full application, credit check, income verification and property assessment by the bank. We help you through both stages and keep you informed along the way."
 
 calculator_pages:
     cta_label: "Start Calculating"

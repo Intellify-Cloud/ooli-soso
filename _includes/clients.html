@@ -14,7 +14,7 @@
       {% for client in site.data.sitetext.clients.list %}
       <div class="clients__item">
         <a class="clients__link" href="{{ client.url }}" {% if client.url != "#" %}target="_blank" rel="noopener"{% endif %} aria-label="{{ client.title }}">
-          <img class="clients__logo" src="{{ client.logo | relative_url }}" alt="{{ client.title }}">
+          <img class="clients__logo" src="{{ client.logo | relative_url }}" alt="{{ client.title }}" width="144" height="144" loading="lazy" decoding="async">
         </a>
       </div>
       {% endfor %}

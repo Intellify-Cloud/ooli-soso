@@ -14,7 +14,7 @@
       {% for person in site.data.sitetext.team.people %}
         <article class="team__card">
           <div class="team__image-wrap">
-            <img class="team__photo" src="{{ person.image | relative_url }}" alt="{{ person.name }}">
+            <img class="team__photo" src="{{ person.image | relative_url }}" alt="{{ person.name }}" width="500" height="500" loading="lazy" decoding="async">
           </div>
           <div class="team__body">
             <h3 class="team__name">{{ person.name }}</h3>
